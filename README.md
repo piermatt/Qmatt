@@ -111,5 +111,5 @@ MIT License — see [LICENSE](LICENSE).
 
 If you use this system in published work, please cite:
 
-> Author(s). *Low-Cost Arduino ODMR for NV Centers in Diamond*. GitHub, 2026.
-> https://github.com/YOUR_USERNAME/odmr_nv_repo
+> Mattia Pierpaoli. *Low-Cost Arduino ODMR for NV Centers in Diamond*. GitHub, 2026.
+> https://github.com/piermatt/Qmatt
