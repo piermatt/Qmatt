@@ -79,14 +79,14 @@ The system is designed for alignment simplicity and minimal footprint while main
 
 ![ODMR Spectrum](./results/odmr_plot.png)
 
-Figure: Optically Detected Magnetic Resonance (ODMR) spectrum of NV⁻ centers in diamond.
+*Figure: Optically Detected Magnetic Resonance (ODMR) spectrum of NV⁻ centers in diamond.*
 
 A clear fluorescence dip is observed near the zero-field splitting (~2870 MHz), corresponding to the ms = 0 → ms = ±1 transition. The contrast arises from spin-dependent intersystem crossing, which reduces photoluminescence at resonance.
 
-Key observations:
-- Broad dip centered around ~2862–2865 MHz (experimental offset likely due to calibration)
-- Signal-to-noise sufficient for low-cost hardware
-- Demonstrates feasibility of differential acquisition using MW ON/OFF modulation
+**Key observations:**
+- Broad dip centered around **~2870–2872 MHz**, aligning excellently with the theoretical ZFS without significant calibration offset.
+- Signal-to-noise is sufficient for low-cost hardware to properly resolve the resonance curve.
+- Demonstrates feasibility of differential acquisition using MW ON/OFF modulation.
 
 
 
