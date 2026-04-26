@@ -75,12 +75,6 @@ The system is designed for alignment simplicity and minimal footprint while main
    - `D` — differential ODMR only
    - `X` — abort current scan
 
-### Analysis
-```bash
-pip install numpy scipy matplotlib pandas
-python software/analysis/odmr_analysis.py results/sample_data/sweep_example.csv```
----
-
 ## Example ODMR Spectrum
 
 ![ODMR Spectrum](./results/odmr_plot.png)
