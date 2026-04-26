@@ -1,0 +1,21 @@
+#,Reference,Description,Value / Part Number,Quantity,Unit Price (EUR),Total (EUR),Supplier / Notes
+1,U_MCU,Microcontroller,Seeeduino XIAO ESP32-C3,1,5.5,5.5,Seeed Studio / AliExpress
+2,U_PLL,Wideband PLL Synthesizer,ADF4351 module (25 MHz TCXO on-board),1,8,8,AliExpress (bare module)
+3,U1,Dual JFET Op-Amp,TL082CP (DIP-8),1,0.4,0.4,LCSC / Mouser
+4,LD1,Green DPSS Laser Module,532 nm / 5 mW CW / 3–5 V TTL gate,1,12,12,AliExpress — verify collimation
+5,PD1,Photodiode,BPW34 or equivalent Si PIN,1,0.5,0.5,LCSC / Mouser
+6,F1,Longpass Optical Filter,550 nm longpass ,1,8,8,AliExpress OD4 notch or Thorlabs
+7,ND1,ND Filter (optional),ND 0.3–1.0 to protect PD,1,2,2,AliExpress
+8,Q1,NPN Transistor (laser gate),2N2222A or BC337,1,0.1,0.1,Generic
+9,R1-R2,Resistor 1 kΩ (virtual GND divider),1 kΩ 1% 0.25 W,2,0.02,0.04,Generic
+10,R3,Transimpedance resistor,1 MΩ 1% 0.25 W,1,0.05,0.05,Generic
+11,R4,Base resistor (Q1),10 kΩ 0.25 W,1,0.02,0.02,Generic
+12,C1-C2,Bypass capacitor,100 nF ceramic 0805,2,0.05,0.1,Generic
+13,C3,Bypass capacitor (power),10 µF electrolytic,1,0.1,0.1,Generic
+14,C4,Photodiode feedback cap,10 pF ceramic (stability),1,0.05,0.05,Generic
+15,J1,USB-C connector,On XIAO board (no extra part),0,0,0,Included
+16,J2,SMA connector (RF out),SMA edge-mount female,1,0.8,0.8,AliExpress
+17,J3,Pin headers,2.54 mm single row 10-pin,2,0.2,0.4,Generic
+18,PCB,Custom PCB (2-layer),FR4 / 1.6 mm / HASL / 100×80 mm,1,5,5,JLCPCB (5 pcs min ~25 EUR → per unit)
+19,MISC,Misc (wire AWG28 wires optical table screws),Assorted,1,2,2,Local
+,,,,,,45.06,TOTAL ESTIMATED COST (EUR)
