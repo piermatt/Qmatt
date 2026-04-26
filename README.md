@@ -38,7 +38,7 @@ odmr_nv_repo/
    the NV zero-field splitting (~2870 MHz).
 3. At resonance, spin population is transferred to ms = ±1, reducing
    photoluminescence — the **ODMR dip**.
-4. A silicon photodiode + **TL082 op-amp** transimpedance/buffer stage converts
+4. A photodiode + **TL082 op-amp** transimpedance/buffer stage converts
    PL intensity to voltage; the ESP32-C3 ADC samples differentially (MW ON vs OFF)
    to extract contrast and reject common-mode noise.
 
@@ -58,8 +58,9 @@ odmr_nv_repo/
 
 Figure: Compact, low-cost ODMR system integrating:
 - ADF4351 microwave source
+- 0.1-2000MHz Broadband RF Amplifiers
 - ESP32-C3 control and acquisition board
-- Fiber-coupled photodiode detection
+- Photodiode detection
 - 3D-printed optomechanical mount
 
 The system is designed for alignment simplicity and minimal footprint while maintaining sufficient stability for ODMR measurements.
